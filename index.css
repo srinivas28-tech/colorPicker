@@ -1,0 +1,45 @@
+.main-Container{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    color:#000;
+    align-items: center;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    text-align: center;
+}
+.container{
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button{
+    height:60px;
+    width: 80px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #ffffff;
+}
+.red{
+    background-color: #FF0000;
+}
+.green{
+    background-color: #00FF00;
+}
+.blue{
+    background-color: #0000FF;
+
+}
+.yellow{
+    background-color: #FFFF00;
+}
